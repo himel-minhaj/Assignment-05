@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate Bangladesh</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="container-lg mx-auto relative ">
+  <header class="sticky top-0">
+    <nav class="mt-10 backdrop-blur-xl">
+      <div class="flex justify-between bg- p-8 bg-[#f9f7f3]">
+        <!-- btn  -->
+        <div>
+          <a href="./blog.html" class="btn btn-active px-10 font-bold bg-[#b4f461]">Blog</a>
+        </div>
+        <!-- middel  -->
+        <div class=" items-center gap-5 text-2xl hidden md:flex">
+          <img src="./assets/logo.png" alt="">
+          <h1 class="font-bold">Donate Bangladesh</h1>
+        </div>
+        <!-- text  -->
+        <div class="flex items-center gap-5 text-2xl">
+          <img src="./assets/coin.png" alt="">
+          <h1 id="my-balance" class="font-bold">5500 BDT</h1>
+        </div>
+
+      </div>
+      <!-- btn two -->
+      <div class="flex justify-center mt-5 gap-5">
+        <button class="btn text-2xl font-bold bg-[#b4f461]">Donation</button>
+        <button id="history-1" class="btn text-2xl font-bold ">History</button>
+      </div>
+    </nav>
+
+  </header>
+  <div class="divider"></div>
+
+  <main id="donation-btn-con" class="container mx-auto ">
+    <!-- card section start 1  -->
+    <section class="mb-5">
+      <div class=" flex flex-col md:flex-row border rounded-lg gap-7 px-8 py-8  bg-base-200 shadow-2xl ">
+        <div class="w-full my-5">
+          <img src="./assets/noakhali.png" alt="">
+        </div>
+        <div>
+          <div class="flex items-center bg-[#1111110d] md:w-1/5 w-2/4 border rounded-md p-2 gap-5 text-xl">
+            <img src="./assets/coin.png" alt="">
+            <h1 class="font-bold "> <span id="donate-1">0</span> BDT</h1>
+          </div>
+
+          <div class="">
+            <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
+            <p>The recent floods in Noakhali have caused significant damage to homes infrastructure. Your donation will
+              help provide
+              essential supplies and to those affected by this disaster. Every contribution, big or small, makes
+              difference. Please
+              join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+            <input id="input-1" class="border rounded-lg mb-4 p-2 w-full " type="number"
+              placeholder="Donate your ammout">
+            <!-- <div> -->
+            <button id="Donate-btn1" class=" btn bg-[#b4f461] w-full text-2xl font-bold">Donate Now</button>
+            <!-- </div> -->
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+    <!-- card section start 2  -->
+    <section class="mb-5">
+      <div class="flex flex-col md:flex-row border rounded-lg gap-7 px-8 py-8  bg-base-200 shadow-2xl ">
+        <div class="w-full my-5">
+          <img src="./assets/feni.png" alt="">
+        </div>
+        <div class="">
+          <div class="flex items-center bg-[#1111110d] md:w-1/5 w-2/4  border rounded-md p-2 gap-5 text-xl">
+            <img src="./assets/coin.png" alt="">
+            <h1 class="font-bold "> <span>0</span> BDT</h1>
+          </div>
+
+          <div>
+            <h1 class="text-2xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
+            <p class="">The recent floods in Feni have devastated local communities, leading to severe disruption
+              and loss. Your generous
+              donation will help provide immediate aid, including food, clean water, and medical supplies, to those
+              affected by this
+              calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster.
+            </p>
+            <input class="border rounded-lg mb-4 p-2 w-full " type="number" placeholder="Donate your ammout">
+            <!-- <div> -->
+            <button class="Donate-btn btn bg-[#b4f461] w-full text-2xl font-bold">Donate Now</button>
+            <!-- </div> -->
+          </div>
+        </div>
+    </section>
+    <!-- card section start 3  -->
+    <section class="mb-5 my-5">
+      <div class="flex flex-col md:flex-row border rounded-lg gap-7 px-8 py-8  bg-base-200 shadow-2xl ">
+        <div class="w-full">
+          <img src="./assets/quota-protest.png" alt="">
+        </div>
+        <div>
+          <div class="flex items-center bg-[#1111110d] md:w-1/5 w-2/4 border rounded-md p-2 gap-5 text-xl">
+            <img src="./assets/coin.png" alt="">
+            <h1 class="font-bold "> <span>0</span> BDT</h1>
+          </div>
+
+          <div class="">
+            <h1 class="text-2xl font-bold">Aid for Injured in the Quota Movement</h1>
+            <p>The recent Quota movement has resulted in numerous injuries and significant hardship for many
+              individuals. Your support
+              is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By
+              contributing,
+              you help ensure that injured individuals receive the care and support they need during this challenging
+              time. </p>
+            <input class="border rounded-lg mb-4 p-2 w-full " type="number" placeholder="Donate your ammout">
+            <!-- <div> -->
+            <button class="btn Donate-btn bg-[#b4f461] w-full text-2xl font-bold">Donate Now</button>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- card section end-->
+  </main>
+  <!-- history  -->
+  <section  >
+    <div id="history-cointainer" class="hidden">
+      <h1 class="text-lg font-bold flex justify-center">🕒 Expense History</h1>
+      <div >
+
+      </div>
+    </div>
+  </section>
+  <!-- modal -->
+  <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle flex justify-center items-center text-center">
+    <div class="modal-box">
+      <h3 class="text-3xl font-bold">Congrates!</h3>
+      <div class="flex justify-center items-center mt-4 mb-4">
+        <img src="./assets/coin.png" class="w-9" alt="" />
+      </div>
+      <p class="py-4 font-semibold">You Have Donated for Humankind</p>
+      <h4 class="font-bold text-xl">Successfully</h4>
+      <form method="dialog" class="mt-5">
+        <button class="btn font-bold">Close Confirmation</button>
+      </form>
+    </div>
+  </dialog>
+
+  <script src="./js/feature.js"></script>
+  <script src="./js/utilitys.js"></script>
+</body>
+
+</html>

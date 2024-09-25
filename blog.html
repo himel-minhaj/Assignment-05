@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="container-lg relative ">
+  <header class="sticky top-0 z-10">
+    <nav class="mt-10 backdrop-blur-xl">
+      <div class="flex justify-between bg- p-8 bg-[#f9f7f3]">
+        <!-- btn  -->
+        <div>
+          <a href="./index.html" class="btn btn-active px-10 font-bold bg-[#b4f461]">Home</a>
+        </div>
+        <!-- middel  -->
+        <div class=" items-center gap-5 text-2xl hidden md:flex">
+          <img src="./assets/logo.png" alt="">
+          <h1 class="font-bold">Donate Bangladesh</h1>
+        </div>
+        <!-- text  -->
+        <div class="flex items-center gap-5 text-2xl">
+          <img src="./assets/coin.png" alt="">
+          <h1 class="font-bold">5500 BDT</h1>
+        </div>
+
+      </div>
+      <!-- btn two -->
+    </nav>
+
+  </header>
+  <main>
+    <div class="p-8">
+      <h1 class="text-2xl font-bold flex justify-center mb-5">Importent FAQ!!!</h1>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">what is the Document Object Model (DOM)?</div>
+        <div class="collapse-content">
+          <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so
+            that programs
+            can change the document structure, style, and content. The DOM represents the document as nodes and objects;
+            that way,
+            programming languages can interact with the page.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">how do you select an element from the dom?</div>
+        <div class="collapse-content">
+          <p>1. getElementById()</p>
+          <p>2. getElementsByClassName()</p>
+          <p>3. getElementsByTagName()</p>
+          <p>4. querySelector()</p>
+          <p>5. querySelectorAll()</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">what is event delegation in the context of the dom ,and why this
+          is usefull?</div>
+        <div class="collapse-content">
+          <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher
+            level in the DOM than the element on which the event originated. It allows us to attach a single event
+            listener for elements that exist now or in the future.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">how do you manipulate an element's and attributes and styles
+          using in dom?</div>
+        <div class="collapse-content">
+          <p>Changing an element's style (CSS) attributes is one of the ways in which the DOM can be used. For example,
+            in the code
+            below, the onfocus event handler method is used to change the <.input.> element's style when the user clicks
+              inside it.
+              When this event occurs, the element's background color will change to purple.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
