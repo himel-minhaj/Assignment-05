@@ -10,5 +10,3 @@ function getInnerTextById(id) {
   const innerTextvalue = document.getElementById(id).innerText;
   return innerTextvalue;
 }
-
-function historyAll(id)
