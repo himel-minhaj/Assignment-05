@@ -1,6 +1,6 @@
 document.getElementById("Donate-btn1").addEventListener("click", function () {
   // const inputValue = parseFloat(document.getElementById("input-1").value);
-  
+
   const input1 = getInputFieldValueById("input-1");
   if (isNaN(input1) || input1 <= 0) {
     alert("⚠️ Invalid amount!");
@@ -17,13 +17,13 @@ document.getElementById("Donate-btn1").addEventListener("click", function () {
 
   const accountBalance = myBalance - input1;
   document.getElementById("my-balance").innerText = accountBalance;
- 
+
   my_modal_5.showModal();
   // history
   const historyItem = document.createElement("div");
   historyItem.className = "bg-white p-5 rounded-md border-2 border-black-500";
-  historyItem.innerHTML = `<p class='text-3xl font-bold text-gray-600'>${input1}Taka is Donated for famine-2024 at Feni, Bangladesh</p>
-  <p class='text-3xl font-bold text-gray-600'>${new Date().toLocaleDateString()}</p>`;
+  historyItem.innerHTML = `<p class='text-xl font-bold text-gray-600'>${input1}Taka is Donated for famine-2024 at Feni, Bangladesh</p>
+  <p class='text-xl font-bold text-gray-600'>${new Date().toLocaleDateString()}</p>`;
   const historyCointainer = document.getElementById("history-list");
   historyCointainer.appendChild(historyItem);
 });
@@ -34,7 +34,7 @@ document.getElementById("Donate-btn2").addEventListener("click", function () {
     alert("⚠️ Invalid amount!");
     return;
   }
-  
+
   // const donateTK = parseFloat(document.getElementById("donate-1").innerText);
   const donateTK = getInnerFieldValueById("donate-2");
   console.log(donateTK);
@@ -45,13 +45,13 @@ document.getElementById("Donate-btn2").addEventListener("click", function () {
 
   const accountBalance = myBalance - input2;
   document.getElementById("my-balance").innerText = accountBalance;
-  
+
   my_modal_5.showModal();
   // history
   const historyItem = document.createElement("div");
   historyItem.className = "bg-white p-5 rounded-md border-2 border-black-500";
-  historyItem.innerHTML = `<p class='text-3xl font-bold text-gray-600'>${input2}Taka is Donated for Flood Relief in Feni,Bangladesh</p>
-  <p class='text-3xl font-bold text-gray-600'>${new Date().toLocaleDateString()}</p>`;
+  historyItem.innerHTML = `<p class='text-xl font-bold text-gray-600'>${input2}Taka is Donated for Flood Relief in Feni,Bangladesh</p>
+  <p class='text-xl font-bold text-gray-600'>${new Date().toLocaleDateString()}</p>`;
   const historyCointainer = document.getElementById("history-list");
   historyCointainer.appendChild(historyItem);
 });
@@ -63,7 +63,6 @@ document.getElementById("Donate-btn3").addEventListener("click", function () {
     return;
   }
 
- 
   const donateTK = getInnerFieldValueById("donate-3");
   console.log(donateTK);
   const myBalance = getInnerFieldValueById("my-balance");
@@ -73,13 +72,13 @@ document.getElementById("Donate-btn3").addEventListener("click", function () {
 
   const accountBalance = myBalance - input3;
   document.getElementById("my-balance").innerText = accountBalance;
-  
+
   my_modal_5.showModal();
   // history
   const historyItem = document.createElement("div");
   historyItem.className = "bg-white p-5 rounded-md border-2 border-black-500";
-  historyItem.innerHTML = `<p class='text-3xl font-bold text-gray-600'>${input3}Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</p>
-  <p class='text-3xl font-bold text-gray-600'>${new Date().toLocaleDateString()}</p>`;
+  historyItem.innerHTML = `<p class='text-xl font-bold text-gray-600'>${input3}Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</p>
+  <p class='text-xl font-bold text-gray-600'>${new Date().toLocaleDateString()}</p>`;
   const historyCointainer = document.getElementById("history-list");
   historyCointainer.appendChild(historyItem);
 });
